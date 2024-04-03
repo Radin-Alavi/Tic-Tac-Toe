@@ -97,7 +97,7 @@ while True:
         print(f"Player {winner} wins!")
     if check_draw():
         print("Draw!")
-
+        reset_game()
     screen.fill("Cyan")
     if not game_started:
         draw_start_button()
